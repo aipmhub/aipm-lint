@@ -1,12 +1,8 @@
 <a name="readme-top"></a><div align="center">
 
-<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-logo/1.0.0/files/assets/logo-3d.webp">
-<img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/triangular-ruler.webp">
+<h1>AiPM Lint</h1>
 
-<h1>Lobe Lint</h1>
-
-ESlint config, Prettier config, Remark config for LobeHub
+ESlint config, Prettier config, Remark config for AiPMHub
 
 [Changelog](./CHANGELOG.md) · [Report Bug][issues-link] · [Request Feature][issues-link]
 
@@ -57,15 +53,15 @@ To install Lobe Lint, run the following command:
 [![][bun-shield]][bun-link]
 
 ```bash
-$ bun add @lobehub/lint -D
+$ bun add @aipmorg/lint -D
 ```
 
 To use template ignore files, run the following command:
 
 ```bash
-$ curl -O https://raw.githubusercontent.com/lobehub/lobe-lint/master/.eslintignore
-$ curl -O https://raw.githubusercontent.com/lobehub/lobe-lint/master/.gitignore
-$ curl -O https://raw.githubusercontent.com/lobehub/lobe-lint/master/.prettierignore
+$ curl -O https://raw.githubusercontent.com/aipmhub/aipm-lint/master/.eslintignore
+$ curl -O https://raw.githubusercontent.com/aipmhub/aipm-lint/master/.gitignore
+$ curl -O https://raw.githubusercontent.com/aipmhub/aipm-lint/master/.prettierignore
 ```
 
 <div align="right">
@@ -95,7 +91,7 @@ public-hoist-pattern[]=*stylelint*
 config can be found at [`.eslintrc.js`](/src/eslint/index.ts)
 
 ```js
-module.exports = require('@lobehub/lint').eslint;
+module.exports = require('@aipmorg/lint').eslint;
 ```
 
 ### Stylelint
@@ -103,7 +99,7 @@ module.exports = require('@lobehub/lint').eslint;
 config can be found at [`.stylelintrc.js`](/src/stylelint/index.ts)
 
 ```js
-module.exports = require('@lobehub/lint').stylelint;
+module.exports = require('@aipmorg/lint').stylelint;
 ```
 
 ### Commitlint
@@ -111,7 +107,7 @@ module.exports = require('@lobehub/lint').stylelint;
 config can be found at [`.commitlintrc.js`](/src/commitlint/index.ts)
 
 ```js
-module.exports = require('@lobehub/lint').commitlint;
+module.exports = require('@aipmorg/lint').commitlint;
 ```
 
 ### Changelog
@@ -119,7 +115,7 @@ module.exports = require('@lobehub/lint').commitlint;
 config can be found at [`.changelogrc.js`](/src/changelog/index.ts)
 
 ```js
-module.exports = require('@lobehub/lint').changelog;
+module.exports = require('@aipmorg/lint').changelog;
 ```
 
 ### Remark
@@ -127,7 +123,7 @@ module.exports = require('@lobehub/lint').changelog;
 config can be found at [`.remarkrc.js`](/src/remarklint/index.ts)
 
 ```js
-module.exports = require('@lobehub/lint').remarklint;
+module.exports = require('@aipmorg/lint').remarklint;
 ```
 
 ### Prettier
@@ -135,7 +131,7 @@ module.exports = require('@lobehub/lint').remarklint;
 config can be found at [`.prettierrc.js`](/src/prettier/index.ts)
 
 ```js
-module.exports = require('@lobehub/lint').prettier;
+module.exports = require('@aipmorg/lint').prettier;
 ```
 
 ### Semantic Release
@@ -143,7 +139,7 @@ module.exports = require('@lobehub/lint').prettier;
 config can be found at [`.releaserc.js`](/src/semantic-release/index.ts)
 
 ```js
-module.exports = require('@lobehub/lint').semanticRelease;
+module.exports = require('@aipmorg/lint').semanticRelease;
 ```
 
 <div align="right">
@@ -161,8 +157,8 @@ You can use Github Codespaces for online development:
 Or clone it for local development:
 
 ```bash
-$ git clone https://github.com/lobehub/lobe-lint.git
-$ cd lobehub/lint
+$ git clone https://github.com/aipmhub/aipm-lint.git
+$ cd aipmhub/lint
 $ bun install
 $ bun start
 ```
@@ -191,7 +187,7 @@ Contributions of all types are more than welcome, if you are interested in contr
 
 #### 📝 License
 
-Copyright © 2023 [LobeHub][profile-link]. <br />
+Copyright © 2023 [AiPMHu b][profile-link]. <br />
 This project is [MIT](./LICENSE) licensed.
 
 <!-- LINK GROUP -->
@@ -199,33 +195,33 @@ This project is [MIT](./LICENSE) licensed.
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
 [bun-link]: https://bun.sh
 [bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
-[codespaces-link]: https://codespaces.new/lobehub/lobe-lint
+[codespaces-link]: https://codespaces.new/aipmhub/aipm-lint
 [codespaces-shield]: https://github.com/codespaces/badge.svg
-[contributors-contrib]: https://contrib.rocks/image?repo=lobehub/lobe-lint
-[contributors-url]: https://github.com/lobehub/lobe-lint/graphs/contributors
+[contributors-contrib]: https://contrib.rocks/image?repo=aipmhub/aipm-lint
+[contributors-url]: https://github.com/aipmhub/aipm-lint/graphs/contributors
 [discord-link]: https://discord.gg/AYFPHvv2jT
 [discord-shield]: https://img.shields.io/discord/1127171173982154893?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=flat-square
-[github-action-release-link]: https://github.com/lobehub/lobe-lint/actions/workflows/release.yml
-[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-lint/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/lobehub/lobe-lint/actions/workflows/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/lobe-lint/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-contributors-link]: https://github.com/lobehub/lobe-lint/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/lobe-lint?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/lobehub/lobe-lint/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/lobehub/lobe-lint?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/lobehub/lobe-lint/issues
-[github-issues-shield]: https://img.shields.io/github/issues/lobehub/lobe-lint?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/lobehub/lobe-lint/blob/master/LICENSE
-[github-license-shield]: https://img.shields.io/github/license/lobehub/lobe-lint?color=white&labelColor=black&style=flat-square
-[github-releasedate-link]: https://github.com/lobehub/lobe-lint/releases
-[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/lobe-lint?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/lobehub/lobe-lint/network/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/lobehub/lobe-lint?color=ffcb47&labelColor=black&style=flat-square
-[issues-link]: https://github.com/lobehub/lobe-lint/issues/new/choose
-[npm-downloads-link]: https://www.npmjs.com/package/@lobehub/lint
-[npm-downloads-shield]: https://img.shields.io/npm/dt/@lobehub/lint?labelColor=black&style=flat-square
-[npm-release-link]: https://www.npmjs.com/package/@lobehub/lint
-[npm-release-shield]: https://img.shields.io/npm/v/@lobehub/lint?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
-[pr-welcome-link]: https://github.com/lobehub/lobe-lint/pulls
+[github-action-release-link]: https://github.com/aipmhub/aipm-lint/actions/workflows/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/aipmhub/aipm-lint/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/aipmhub/aipm-lint/actions/workflows/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/aipmhub/aipm-lint/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-contributors-link]: https://github.com/aipmhub/aipm-lint/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/aipmhub/aipm-lint?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/aipmhub/aipm-lint/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/aipmhub/aipm-lint?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/aipmhub/aipm-lint/issues
+[github-issues-shield]: https://img.shields.io/github/issues/aipmhub/aipm-lint?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/aipmhub/aipm-lint/blob/master/LICENSE
+[github-license-shield]: https://img.shields.io/github/license/aipmhub/aipm-lint?color=white&labelColor=black&style=flat-square
+[github-releasedate-link]: https://github.com/aipmhub/aipm-lint/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/aipmhub/aipm-lint?labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/aipmhub/aipm-lint/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/aipmhub/aipm-lint?color=ffcb47&labelColor=black&style=flat-square
+[issues-link]: https://github.com/aipmhub/aipm-lint/issues/new/choose
+[npm-downloads-link]: https://www.npmjs.com/package/@aipmorg/lint
+[npm-downloads-shield]: https://img.shields.io/npm/dt/@aipmorg/lint?labelColor=black&style=flat-square
+[npm-release-link]: https://www.npmjs.com/package/@aipmorg/lint
+[npm-release-shield]: https://img.shields.io/npm/v/@aipmorg/lint?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[pr-welcome-link]: https://github.com/aipmhub/aipm-lint/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
-[profile-link]: https://github.com/lobehub
+[profile-link]: https://github.com/aipmhub
