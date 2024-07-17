@@ -1,16 +1,16 @@
 {
-  "name": "@lobehub/lint",
+  "name": "@aipmorg/lint",
   "version": "1.24.3",
-  "homepage": "https://github.com/lobehub/lobe-lint",
+  "homepage": "https://github.com/aipmhub/aipm-lint",
   "bugs": {
-    "url": "https://github.com/lobehub/lobe-lint/issues/new"
+    "url": "https://github.com/aipmhub/aipm-lint/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lobehub/lobe-lint.git"
+    "url": "https://github.com/aipmhub/aipm-lint.git"
   },
   "license": "MIT",
-  "author": "canisminor1990 <i@canisminor.cc>",
+  "author": "AiPMHub <nextprofessionalpower@gmail.com>",
   "sideEffects": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
